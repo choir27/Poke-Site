@@ -491,6 +491,9 @@ color: white;
 /*************************************************/
 /*About
 /*************************************************/
+#aboutPage .vl{
+margin-bottom: -12rem;
+}
 
 #about{
 	margin: 4rem;
@@ -504,7 +507,7 @@ color: white;
 
 .about{
 	background: no-repeat url("/css/images/white.jpg") center/cover;
-	padding: 4rem;
+	padding: 6rem;
 	padding-bottom: 8rem;
 }
 
@@ -525,6 +528,40 @@ color: white;
 #about p, #about h2{
 	text-align: center;
 }
+
+
+/*************************************************/
+/*Anime
+/*************************************************/
+
+#anime section a{
+width: 10%;
+}
+
+#anime section img{
+	width: 20%;
+}
+
+#anime .image{
+	width: 60%;
+}
+
+#anime img{
+	width: 100%;
+}
+
+#anime article{
+ justify-content: space-around;
+}
+
+.text{
+	width: 40%;
+}
+
+body *{
+	border: 3px solid black;
+}
+
 /*************************************************/
 /*Media Query
 /*************************************************/

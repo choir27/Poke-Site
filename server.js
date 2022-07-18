@@ -17,6 +17,15 @@ app.use(cors())
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
+const pokemonAnime = {
+    'g-1'	: 'Original series (1997–2002)',
+    'g-2'	: 'Advanced Generation (2002–2006)',
+    'g-3'	: 'Diamond and Pearl (2006–2010)',
+    'g-4'	: 'Black & White (2010–2013)',
+    'g-5'	: 'XY (2013–2016)',
+    'g-6'	: 'Sun & Moon (2016–2019)',
+    'g-7'	: 'Journeys (2019–present)',
+}
 
 
 MongoClient.connect(process.env.DATABASE_URL, { useUnifiedTopology: true })
@@ -49,6 +58,15 @@ app.get('/anime',(request, response)=>{
 
 app.get('/manga',(request, response)=>{
     response.render('manga.ejs')
+})
+
+app.get('/api/:name',(request,response)=>{
+    const year = request.params.name.toLowerCase()
+    if(pokemonAnime[year]){
+        response.json(pokemonAnime[year])
+    }else{
+        response.json('error')
+    }
 })
 
 
