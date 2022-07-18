@@ -1,0 +1,624 @@
+img{
+	display: block;
+	margin: 0 auto;
+	}
+	  
+html{
+	font-size: 62.5%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	scroll-behavior: smooth;  
+}
+
+.hidden{	
+	display: none;
+}
+
+.flex, .one h2, .one p{
+	display: flex;
+}
+
+.row{
+	flex-direction: row;
+}
+
+.column{
+	flex-direction: column;
+}
+
+.alignItems{
+	align-items: center;
+}
+
+.justifyContent{
+	justify-content: center;
+}
+
+/*************************************************/
+/*Layout
+/*************************************************/
+	
+
+#header{
+	padding: 4rem;
+	flex-direction: column;
+	align-items: center;
+}
+
+.primaryHeader{
+text-align: center;
+height: 60vh;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.primaryHeader h1{
+	font-size: 8rem;
+}
+
+
+.primaryHeader p{
+	margin-bottom: -3rem;
+	font-size: 2rem;
+}
+
+.button{
+	background: none;
+	font-size: 2rem;
+	text-decoration: none;
+	color: white;
+	border: 2px solid white;
+	padding:.9rem 3rem;
+	border-radius: 5px;
+}
+
+body{
+	background: url('images/background.png') no-repeat center/cover;
+}
+
+main{
+	margin: 4rem;
+}
+
+
+
+/*************************************************/
+/*Section1
+/*************************************************/
+
+.one{
+	flex-direction: row;
+	justify-content: center;
+	padding: 4rem;
+}
+
+.imageContainer{
+	width: 40%;
+	padding: 6rem 0;
+
+}
+
+.imageContainer img{
+	width: 100%;
+}
+
+.container{
+	padding: 6rem 0;
+	width: 35%;
+	margin-right: 8.2rem;
+}
+
+.container h2{
+	margin-bottom: 1.5rem;
+	font-size: 3.2rem;
+	padding-bottom: 1.3rem;
+}
+
+.container p{
+	line-height: 3rem;
+	font-size: 2rem;
+}
+
+
+.container h2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+	padding-top: 5.3rem;
+	margin-left: -8.9rem;
+    width: 20%; /* Change this to whatever width you want. */
+    border-bottom: 2px solid white; /* This creates the border. Replace black with whatever color you want. */
+}
+
+
+
+h1, h2{
+	font-weight: 400;
+}
+
+/*************************************************/
+/*Section2
+/*************************************************/
+
+.two{
+	justify-content: space-around;
+	padding-top: 11rem;
+	background: white;
+
+}
+
+.left img{
+	width: 50%;
+}
+
+.left{
+	width: 40%;
+	justify-content: space-around;
+}
+
+.two h2, .two p{
+	font-weight: bold;
+}
+
+.two h2{
+	font-size: 3.2rem;
+	margin-bottom: 5rem;
+}
+
+.two .container h2:after {
+	margin-left: .5rem;
+	padding-top: 2.3rem;
+}
+
+.one p, .one h2{
+	color: white;
+}
+
+.two p{
+	font-size: 2rem;
+	line-height: 3rem;
+	margin-bottom:5rem;
+}
+
+.two div{
+	width: 40%;
+}
+
+main{
+	background: url('images/background1.png') no-repeat center/cover;
+}
+
+
+/*************************************************/
+/*Section3
+/*************************************************/
+
+
+.three h2{
+	padding-bottom: 2rem;
+	font-size: 3.2rem;
+	border-bottom: 3px solid black;
+}
+
+.three h2 + p{
+	margin-bottom: 4rem;
+}
+
+.three h3{
+	font-weight:900;
+	margin-bottom: 2rem;
+	font-size: 2.5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.three p{
+	font-size: 2rem;
+	margin-top: 4rem;
+	text-align: center;
+}
+
+.three img{
+	width: 60%;
+	margin-bottom: 4rem;	
+}
+
+.three article{
+	margin-right: 4rem;
+}
+
+.three p, .three h2, .three h3, .three a.button{
+	color: black;
+	font-weight: bolder;
+}
+
+.three a.button{
+	font-size: 2rem;
+	background: rgb(51, 41, 41);
+	color: white;
+	border: none;
+}
+
+.three .button:hover{
+	color: white;
+}
+
+.three{
+	background: no-repeat url('/css/images/background.webp') center/cover;
+	align-items: center;
+	padding: 10rem;
+}
+
+
+/*************************************************/
+/*Section4
+/*************************************************/
+
+.four h2{
+	font-size: 3.2rem;
+	margin-bottom: 6rem;
+	border-bottom: solid 1px black;
+	padding-bottom: 1rem;
+}
+
+.four{
+	background: white;
+	align-items: center;
+	justify-content: space-between;
+	padding: 6rem;
+}
+
+.four table{
+	display: block;
+}
+
+.four thead{
+	font-size: 2.9rem;
+	font-weight: 400
+}
+
+tbody:before {
+    content:"@";
+    display:block;
+    line-height:10px;
+    text-indent:-99999px;
+}
+
+
+.four td{
+	border: solid 2px black;
+	font-size: 2rem;
+	padding: 1.2rem;
+}
+
+
+/*************************************************/
+/*Section5
+/*************************************************/
+
+.five{
+	align-items: center;
+	padding: 6rem;
+}
+
+.five h2{
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.five button, .five input{
+	font-size: 2rem;
+}
+
+.five h2{
+	color: white;
+}
+
+
+.five input{
+	margin-bottom: 1.5rem;
+	width: 20%;
+}
+
+.five button{
+	cursor: pointer;
+	margin-bottom: 4rem;
+}
+
+/*************************************************/
+/*Pokedex
+/*************************************************/
+
+
+
+#pokeImg1, #pokeImg2 {
+	width: 25%;
+	margin-bottom: 3rem;
+}
+
+
+.pokeContainer{
+	width: 100%;
+	justify-content: space-around;
+}
+
+.five li, .five span
+{
+	color: white;
+	font-size: 2rem;
+}
+
+
+.five span, .five li{
+	line-height: 3rem;
+}
+
+
+.five ul{
+	margin-left: 2rem;
+}
+.ability{
+	align-items: center;
+}
+
+.info{
+	width: 100%;
+	justify-content: space-around;
+}
+
+
+/*************************************************/
+/*Footer
+/*************************************************/
+
+footer li.flex.row{
+justify-content: flex-end;
+width: 100%;
+}
+
+footer ul{
+	margin-left: -2.4rem;
+	width: 100%;
+	justify-content: space-between;
+}
+
+footer ul li{
+	list-style-type: none;
+	margin-right: 2rem;
+}
+
+footer li a i{
+	font-size: 3rem;
+	margin-right: 2rem;
+	color: black;
+}
+
+footer small{
+	font-size: 1.2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+footer{
+	padding: 1.5rem 6rem;
+}
+
+/*************************************************/
+/*Other
+/*************************************************/
+.vl {
+border-left: 2px solid white;
+height: 1200px;
+margin-bottom: -8rem;
+}
+
+.but-alt{
+	width: 40%;
+}
+
+.one p{
+	margin-bottom: 3rem;
+}
+
+.three article{
+	align-items: center;
+}
+
+.three .but-alt{
+	margin-top: 2rem;
+}
+
+.three .manga{
+	width: 70%;
+}
+
+.three a{
+justify-content: center;
+}
+
+.button:hover{
+ color: black;
+ background: white;
+}
+
+.primaryHeader{
+	animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+
+  footer li a i:hover{
+color: white;
+  }
+
+/*************************************************/
+/*Nav Bar
+/*************************************************/
+
+#ul,#nav{
+	padding-left: 0rem;
+	margin-left: 0rem;
+	width: 92.1%;
+}
+
+#ul a{
+	text-decoration: none;
+	color: black;
+	font-size: 4rem;
+}
+
+#ul li{
+	list-style-type: none;
+}
+
+#ul{
+	justify-content: space-around;
+}
+
+#nav{
+	margin: 4rem;
+	padding: 2rem;
+	position: fixed;
+	background-color: white;
+}
+
+
+/*************************************************/
+/*About
+/*************************************************/
+
+#about{
+	margin: 4rem;
+	padding: 4rem;
+}
+
+
+#nav.aboutNav{
+	width:86.7%;
+}
+
+.about{
+	background: no-repeat url("/css/images/white.jpg") center/cover;
+	padding: 4rem;
+	padding-bottom: 8rem;
+}
+
+#about .about p{
+	text-align: left;
+}
+
+#about h2{
+	font-size: 3rem;
+	margin-bottom: 3rem;
+}
+#about p{
+	width: 70%;
+	line-height: 3rem;
+	font-size: 2rem;
+}
+
+#about p, #about h2{
+	text-align: center;
+}
+/*************************************************/
+/*Media Query
+/*************************************************/
+
+
+@media all and (max-width:1252px){
+	.primaryHeader p{font-size: 3rem;}
+}
+
+@media all and (min-width:260px) and (max-width:770px){
+	body{
+		padding: 1rem;
+	}
+
+	.vl {
+		border-left: 2px solid white;
+		height: 800px;
+	}
+
+	.primaryHeader{
+		height: 50vh;
+	}
+
+	#table {
+		width: 10%;
+		height: 10%;
+		margin-left: -33rem;
+	}
+
+	#table *{
+		font-size: 1.2rem;
+	}
+
+
+	.three div article img{
+		width: 100%;}
+
+		.three div article{
+			width: 100%;}
+
+	.imageContainer{
+		width: 100%;
+	}
+
+	.container{
+		width: 100%;
+	}
+
+	.one{
+		flex-direction: column;
+	}
+
+	.two{
+		flex-direction: column;
+		padding: 4rem;
+	}
+
+	.two .right, .two .left{
+		width: 100%;
+	}
+
+	.three div.flex.row{
+		flex-direction: column;
+	}
+
+	.three article.column{
+		margin-bottom: 4rem;
+	}
+
+	.four table tr td, .four table tr th{
+		font-size: .5rem;
+	}
+
+	footer li a{
+		margin-right: -1.5rem;
+	}
+
+	footer ul{
+		margin-left: .5rem;
+	}
+
+	#poke1{
+		width: 100%;
+	}
+
+	.five div.info.flex.row{
+		flex-direction: column;
+		align-items: center;
+	}
+	.five .info ul, #name{
+		margin-bottom: 4.5rem;
+	}
+
+	.five .info h2, .five .info span{
+		margin-bottom: 1rem;
+	}
+}
