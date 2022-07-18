@@ -61,13 +61,8 @@ app.get('/manga',(request, response)=>{
     response.render('manga.ejs')
 })
 
-app.get('/api/:name',(request,response)=>{
-    const year = request.params.name.toLowerCase()
-    if(pokemonAnime[year]){
-        response.json(pokemonAnime[year])
-    }else{
-        response.json('error')
-    }
+app.get('/api',(request,response)=>{
+response.json(pokemonAnime)
 })
 
 
