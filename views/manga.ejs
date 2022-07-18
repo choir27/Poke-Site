@@ -1,1 +1,92 @@
-<p>Centering around the protagonists of their respective Pokemon generation and games, the manga series follows similar events from the Pokemon video games, but have a more darker and serious tone while keeping its comedical charm.</p>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>All About Pokemon - Manga</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel = 'stylesheet' href = '/css/reset.css'/>
+		<link rel = 'stylesheet' href = '/css/normalize.css'/>
+		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">	
+<body id = 'manga'>
+
+			<header id="header" class = 'flex'>
+				<div class = 'primaryHeader'>
+					<p>Manga Series of </p>
+					<h1>Pokemon</h1>
+					<a class = 'button' href = '#discover'>Discover</a>
+					<div class = 'vl'></div>
+				</div>
+			</header>
+			<nav id = 'nav' class = 'flex justifyContent'>
+				<ul id = 'ul' class = 'flex'>
+					<li><a href = '/'>Home</a></li>
+					<li><a href = '/about'>About</a></li>
+					<li><a href = '/anime'>Anime</a></li>
+					<li><a href = '/game'>Game</a></li>
+					<li><a href = '/manga'>Manga</a></li>
+				</ul>
+			</nav>
+
+            <section class = 'manga'>
+                <p>Centering around the protagonists of their respective Pokemon generation and games, the manga series follows similar events from the Pokemon video games, but have a more darker and serious tone while keeping its comedical charm.</p>
+                <div class = 'flex arrows'>
+
+                    <div class = 'column center flex'>
+                    <i id = 'left' class="fa-solid fa-arrow-left"></i>
+                    </div>
+
+                    <div class = 'image'>
+                <img src = '/manga1.jpg' class = 'manga1'>
+
+                <% for(let i=2; i < 8; i++) {%>
+                <a href = 'file:///C:/Users/richa/Documents/Pokemon/images/manga<%=[i]%>.jpg'><img src = '/manga<%=[i]%>.jpg' class = 'hidden manga<%=[i]%>'></a>
+                <% } %>
+            </div>
+
+            <div class = 'column center flex'>
+                <i id = 'right' class="fa-solid fa-arrow-right"></i>
+            </div>
+
+                </div>
+                
+                    </section>
+
+            </section>
+
+     
+
+<footer class = 'flex row'>
+	<ul class = 'flex row'>
+	<li><a target="_blank" href="https://twitter.com/choir241"><i class="fa-brands fa-twitter"></i></a></li>
+	<li><a target="_blank" href="https://www.facebook.com/richard.choi.54772about?section=bio&lst=100052959996942%3A100052959996942%3A1593271248"><i class="fa-brands fa-facebook-f"></a></i></li>
+	<li><a target="_blank" href="https://www.instagram.com/225kh_drw/hl=en"><i class="fa-brands fa-instagram"></i></a></li>
+	<li><a target="_blank" href="https://github.com/choir27"><i class="fa-brands fa-github"></i></a></li>
+	<li class = 'flex row'><small>&copy; choir24 Design: <a href="http://html5up.net">HTML5 UP</a></small></li>
+
+	</ul>
+
+				</ul>
+			</footer>
+            <script src="https://kit.fontawesome.com/d0e0071c1c.js" crossorigin="anonymous"></script>
+			<script src="/js/manga.js"></script>
+	</body>
+</html>
+
+<!-- <p>I'm currently accepting new freelance clients!</p>
+<p>Email me at richardchoi54@gmail.com</p>
+<p>Or you can also shoot me a quick message here!</p>
+<form netlify method="post" action="#" netlify-honeypot="bot-field" data-netlify="true">
+<p class="hidden">
+	<label>Don't fill this out if you're human: <input name="bot-field" /></label>
+</p>
+	<label for="name">Name</label>
+	<input type="text" name="name" id="name" />
+	<label for="email">Email</label>
+	<input type="text" name="email" id="email" />
+	<label for="message">Message</label>
+	<textarea name="message" id="message" rows="3"></textarea>
+	<input type="submit" value="Send Message" />
+</form> -->
