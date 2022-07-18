@@ -533,35 +533,58 @@ margin-bottom: -12rem;
 /*************************************************/
 /*Anime
 /*************************************************/
+#anime .anime{
+padding: 4rem;
+margin: 4rem;
+background: no-repeat url('/css/images/background1.webp') center/cover;
+}
 
 #anime section a{
-width: 10%;
+width: 100%;
 }
 
-#anime section img{
-	width: 20%;
-}
+
 
 #anime .image{
 	width: 60%;
 }
 
 #anime img{
-	width: 100%;
-}
-
-#anime article{
- justify-content: space-around;
-}
-
-.text{
 	width: 40%;
 }
 
-body *{
-	border: 3px solid black;
+
+
+#anime article{
+padding: 2rem;
+ justify-content: space-around;
+ border-bottom: 2px solid black;
 }
 
+#anime .anime .text{
+	width: 40%;
+}
+
+#anime h4{
+	font-weight: bold;
+	font-size: 5rem;
+}
+
+#anime p{
+margin-top: 6rem;
+font-size: 3rem;
+text-align: center;
+line-height: 4rem;	
+}
+
+
+
+
+#anime a.video img{
+	width: 100%;
+	padding: 2rem;
+	margin: 8rem;
+}
 /*************************************************/
 /*Media Query
 /*************************************************/

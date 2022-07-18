@@ -1,4 +1,3 @@
-<p>Starring the main protagonist Ash Ketchum with his life long partner Pikachu, the television series focuses on Ash catching various types of Pokemon with his traveling friends while encountering bizarre adventures during his never-ending quest for Pokemon Master.</p>
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -33,7 +32,9 @@
 
             
             <section class = 'anime'>
-		
+                
+                <p>Starring the main protagonist Ash Ketchum with his life long partner Pikachu, the television series focuses on Ash catching various types of Pokemon with his traveling friends while encountering bizarre adventures during his never-ending quest for Pokemon Master.</p>
+
                 <% let g1 = 'Original series (1997-2002)'; %> 
                 <% for(let i=1; i < 8; i++) {%>
                     
@@ -43,7 +44,7 @@
             </div>
 
             <div class = 'text'>
-               <h4> <% 'g'[i] %> </h4>
+               <h4 class = 'g-<%=[i]%>'></h4>
             </div>
         </article>
             <% } %>
@@ -51,7 +52,9 @@
 
 
 
-    <a href = 'https://www.youtube.com/watch?v=fCkeLBGSINs'><img src = '/ThemeSong.jpg'></a>
+    <a class = 'video flex justifyContent' href = 'https://www.youtube.com/watch?v=fCkeLBGSINs'>
+        <img src = '/ThemeSong.jpg'>
+    </a>
 </section>
 
 <footer class = 'flex row'>
@@ -67,7 +70,7 @@
 				</ul>
 			</footer>
 			<script src="https://kit.fontawesome.com/d0e0071c1c.js" crossorigin="anonymous"></script>
-			<script src="/js/main.js"></script>\
+			<script src="/js/anime.js"></script>\
 	</body>
 </html>
 
