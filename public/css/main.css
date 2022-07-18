@@ -533,6 +533,13 @@ margin-bottom: -12rem;
 /*************************************************/
 /*Anime
 /*************************************************/
+#anime .vl {
+	margin-bottom: -8rem;
+}
+
+
+
+
 #anime .anime{
 padding: 4rem;
 margin: 4rem;
@@ -570,7 +577,7 @@ padding: 2rem;
 	font-size: 5rem;
 }
 
-#anime p{
+#anime .anime p{
 margin-bottom: 5rem;
 margin-top: 6rem;
 font-size: 3rem;
@@ -634,7 +641,7 @@ width: 1%;
 	color: white;
 }
 
-#manga p{
+#manga .manga p{
 	line-height: 4rem;
 	text-align: center;
 	margin: 2rem;
@@ -651,6 +658,31 @@ width: 1%;
 /*************************************************/
 /*Games
 /*************************************************/
+
+#games .games .button{
+	width: 20%;
+	margin: 5rem;
+}
+
+.games img{
+	width: 40%;	
+}
+
+
+#games .games p{
+	font-size: 3rem;
+	line-height: 3.5rem;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding: 6rem;
+}
+
+#games .games{
+	padding: 4rem;
+	margin: 4rem;
+	background: no-repeat url('/css/images/background3.jpg') center/cover;
+}
 
 /*************************************************/
 /*Media Query
