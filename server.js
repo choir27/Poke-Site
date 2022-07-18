@@ -37,12 +37,12 @@ MongoClient.connect(process.env.DATABASE_URL, { useUnifiedTopology: true })
 
 
 app.get('/',(request, response)=>{
-    response.sendFile(__dirname + '/index.ejs')
+    response.sendFile(__dirname + '/index.html')
     response.render('index.ejs')
 })
 
 app.get('/about',(request, response)=>{
-    response.render('about.ejs')
+    response.render('about.ejs')    
 })
 
 app.get('/game',(request, response)=>{
