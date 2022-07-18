@@ -37,6 +37,7 @@ MongoClient.connect(process.env.DATABASE_URL, { useUnifiedTopology: true })
 
 
 app.get('/',(request, response)=>{
+    response.sendFile(__dirname + '/index.ejs')
     response.render('index.ejs')
 })
 
