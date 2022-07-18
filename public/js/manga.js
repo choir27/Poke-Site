@@ -26,3 +26,13 @@ function goRight(){
         document.querySelector(`.manga${index}`).classList.remove('hidden')
     }
 }
+
+fetch('https://pokemon-anime.herokuapp.com/api')
+    .then(res=>res.json())
+    .then(data=>{
+      for(let i =1;i<8;i++){
+        console.log(`.m-${i}`)
+
+        document.querySelector(`.m-${i}`).setAttribute(`href`,data.manga[`m-${i}`])
+      }
+    })

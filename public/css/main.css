@@ -594,6 +594,7 @@ line-height: 4rem;
 #manga .manga{
 	padding: 4rem;
 	margin: 4rem;
+	padding-top: 7rem;
 	background: no-repeat url('/css/images/background2.jpg') center/cover;
 }
 
@@ -615,16 +616,13 @@ line-height: 4rem;
 	justify-content: center;
 }
 
-
-body *{
-	border: 3px solid black;
-}
-
 #manga .manga image{
 width: 1%;
 }
 
-
+#manga .center{
+	padding: 2rem;
+}
 
 
 #manga .manga img{
@@ -637,6 +635,7 @@ width: 1%;
 }
 
 #manga p{
+	line-height: 4rem;
 	text-align: center;
 	margin: 2rem;
 	font-size: 4rem;
@@ -648,6 +647,11 @@ width: 1%;
 	margin: 2rem;
 	justify-content: space-around;
 }
+
+/*************************************************/
+/*Games
+/*************************************************/
+
 /*************************************************/
 /*Media Query
 /*************************************************/
