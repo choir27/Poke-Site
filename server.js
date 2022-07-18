@@ -27,18 +27,12 @@ const pokemonAnime = {
     'g-7'	: 'Journeys (2019–present)',
 }
 
-
-MongoClient.connect(process.env.DATABASE_URL, { useUnifiedTopology: true })
-    .then(client => {
-
-        console.log(`Connected to ${dbName} Database`)
-        db = client.db(dbName)
-    })
-
+app.get('/',(request, response)=>{
+    response.render('index.ejs')
+})
 
 app.get('/',(request, response)=>{
-    response.sendFile(__dirname + '/index.html')
-    response.render('index.ejs')
+response.sendFile(__dirname + '/index.html')
 })
 
 app.get('/about',(request, response)=>{
