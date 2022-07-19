@@ -552,6 +552,7 @@ width: 100%;
 
 
 
+
 #anime .image{
 	width: 60%;
 }
@@ -563,6 +564,7 @@ width: 100%;
 
 
 #anime article{
+	background: rgb(225, 215, 215,.6);
 padding: 2rem;
  justify-content: space-around;
  border-bottom: 2px solid black;
@@ -623,18 +625,26 @@ line-height: 4rem;
 	justify-content: center;
 }
 
-#manga .manga image{
-width: 1%;
-}
-
 #manga .center{
 	padding: 2rem;
 }
 
-
-#manga .manga img{
-	width: 100%;
+#manga .manga a{
+	width: 800px;
 }
+
+.manga7,.manga1{
+	width: 40%;
+}		
+
+.manga3,.manga5{
+	width: 70%;
+}
+
+.manga2,.manga4,.manga6{
+	width: 50%;
+}
+
 
 #manga #left,#manga #right{
 	font-size: 19rem;
@@ -653,6 +663,11 @@ width: 1%;
 	padding: 2rem;
 	margin: 2rem;
 	justify-content: space-around;
+}
+
+#manga .manga h2{
+	color: white;
+	font-size: 5rem;
 }
 
 /*************************************************/
