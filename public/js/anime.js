@@ -1,4 +1,4 @@
-fetch('https://pokemon-anime.herokuapp.com/api')
+fetch('https://pk-mon-site.herokuapp.com/api')
     .then(res=>res.json())
     .then(data=>{
         for(let i=1; i < 8; i++){
