@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
 const MongoClient = require('mongodb').MongoClient
-const PORT = 9000
 const cors = require('cors')
 const fs = require('fs')
 require('dotenv').config()
@@ -71,6 +70,6 @@ response.json(pokemonAnime)
 })
 
 
-app.listen(process.env.PORT || PORT, ()=>{  
+app.listen(process.env.PORT, ()=>{  
     console.log(`Server running on port ${PORT}`)
 })
