@@ -2,7 +2,7 @@
 
 ![pokemon](https://user-images.githubusercontent.com/66279068/174390206-de328be6-86a2-4196-84c0-6c6828d954e9.PNG)
 
-<div align = 'center'><a href = 'https://pk-mon-site.herokuapp.com/'>View the website here!</a></div>
+<div align = 'center'><a href = 'https://web-production-4fa3.up.railway.app/'>View the website here!</a></div>
 
 
 ## How It's Made: Tech used: HTML, CSS, JavaScript, Node, Express, EJS
@@ -14,5 +14,5 @@ Building the initial layout, content and design of the website on html, I eventu
 I learned to make a plan before building anything, and to make sure I have a general direction that I want to achieve and to develop a plan on how to get there.  Taking the time to develop a general structured plan beforehand showed me how efficient and useful it is to write out what you want build before actually creating it.
 
 ## Examples: 
-Take a look at these couple examples that I have in my own portfolio: Anime on Mobile: https://anime-on-mobile.netlify.app/ For Everything Priconne: https://for-everything-priconne.herokuapp.com/ Poke Site: https://illyasite.herokuapp.com/
+Take a look at these couple examples that I have in my own portfolio: Anime on Mobile: https://anime-on-mobile.netlify.app/ For Everything Priconne: https://for-everything-priconne.herokuapp.com/ Illya Site: https://illyasite.herokuapp.com/
 
